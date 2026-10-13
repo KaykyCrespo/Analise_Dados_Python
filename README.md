@@ -2,7 +2,21 @@
 
 Projeto acadêmico de análise exploratória e auditoria da qualidade de dados de consumo de energia. O notebook trata os dados de uma planilha de sensores industriais, investiga padrões de consumo e estima oportunidades de economia.
 
-![Diagrama de Pareto do consumo total por hora do dia](resultados/05_pareto_consumo_hora.png)
+## Resultados visuais
+
+| Distribuição do consumo | Consumo por dia |
+| --- | --- |
+| ![Histograma do consumo de energia](resultados/01_histograma_consumo.png) | ![Boxplot do consumo por dia](resultados/02_boxplot_consumo_dia.png) |
+| Relação entre RPM e consumo | Correlação entre variáveis |
+| ![Dispersão entre velocidade de produção e consumo de energia](resultados/03_dispersao_rpm_consumo.png) | ![Mapa de calor da correlação entre variáveis](resultados/04_matriz_correlacao.png) |
+| Pareto do consumo por hora | Consumo por hora em ordem cronológica |
+| ![Pareto do consumo total por faixa horária](resultados/05_pareto_consumo_hora.png) | ![Consumo e percentual acumulado por hora em ordem cronológica](resultados/05b_consumo_hora_cronologico.png) |
+| Carta de controle | Regressão linear por RPM |
+| ![Carta de controle do consumo de energia](resultados/06_carta_controle_consumo.png) | ![Regressão linear do consumo em função da velocidade de produção](resultados/07_regressao_rpm_consumo.png) |
+
+Regressão múltipla do consumo de energia:
+
+![Regressão múltipla do consumo de energia](resultados/08_regressao_multipla_consumo.png)
 
 ## Funcionalidades
 
